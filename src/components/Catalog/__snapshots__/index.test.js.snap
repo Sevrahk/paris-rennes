@@ -1,0 +1,1659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog component has trips preserve UI 1`] = `
+<div
+  className="container catalog"
+>
+  <div
+    className="row"
+  >
+    <Trip
+      key="0"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="1"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="2"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="3"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="4"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="5"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="6"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="7"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="8"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="9"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+  </div>
+  <div
+    className="pagination"
+  >
+    <Pagination
+      className=""
+      current={1}
+      defaultCurrent={1}
+      defaultPageSize={10}
+      hideOnSinglePage={false}
+      itemRender={[Function]}
+      locale={
+        Object {
+          "items_per_page": "/ page",
+          "jump_to": "Goto",
+          "jump_to_confirm": "confirm",
+          "next_3": "Next 3 Pages",
+          "next_5": "Next 5 Pages",
+          "next_page": "Next Page",
+          "page": "",
+          "prev_3": "Previous 3 Pages",
+          "prev_5": "Previous 5 Pages",
+          "prev_page": "Previous Page",
+        }
+      }
+      onChange={[Function]}
+      onShowSizeChange={[Function]}
+      prefixCls="rc-pagination"
+      selectComponentClass={null}
+      selectPrefixCls="rc-select"
+      showLessItems={false}
+      showPrevNextJumpers={true}
+      showQuickJumper={false}
+      showSizeChanger={false}
+      showTitle={true}
+      style={Object {}}
+      total={12}
+    />
+  </div>
+</div>
+`;
+
+exports[`Catalog component has trips should show page 2 1`] = `
+<div
+  className="container catalog"
+>
+  <div
+    className="row"
+  >
+    <Trip
+      key="0"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+    <Trip
+      key="1"
+      trip={
+        Object {
+          "answer_delay": 0,
+          "arrival_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 4127,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "arrival_place": Object {
+            "address": "La Poterie",
+            "city_name": "Rennes",
+            "country_code": "FR",
+            "latitude": 48.087497711,
+            "longitude": -1.644595981,
+          },
+          "booking_mode": "auto",
+          "booking_type": "online",
+          "car": Object {
+            "category": "CATEGORY_44",
+            "comfort": "normal",
+            "comfort_nb_star": 2,
+            "id": "139986481",
+            "make": "RENAULT",
+            "model": "CAPTUR",
+          },
+          "commission": Object {
+            "currency": "EUR",
+            "string_value": "5,00 €",
+            "symbol": "€",
+            "value": 5,
+          },
+          "corridoring_type": "PLANNED",
+          "departure_date": "14/09/2019 16:00:00",
+          "departure_passenger_routing": Object {
+            "proximity": "MIDDLE",
+            "routes": Array [
+              Object {
+                "distance_in_meters": 9627,
+                "type": "AS_THE_CROW_FLIES",
+              },
+            ],
+          },
+          "departure_place": Object {
+            "address": "13 Allée des Passiflores, 92270 Bois-Colombes, France",
+            "city_name": "Bois-Colombes",
+            "country_code": "FR",
+            "latitude": 48.925689697,
+            "longitude": 2.272836924,
+          },
+          "distance": Object {
+            "unity": "km",
+            "value": 350,
+          },
+          "duration": Object {
+            "unity": "s",
+            "value": 13800,
+          },
+          "freeway": true,
+          "is_comfort": true,
+          "links": Object {
+            "_front": "https://www.blablacar.fr/trip/carpooling/1701132340-bois-colombes-rennes/",
+            "_self": "https://api.blablacar.fr/api/v2/trips/1701132340-bois-colombes-rennes",
+          },
+          "locations_to_display": Array [
+            "Bois-Colombes",
+            "Rennes",
+          ],
+          "multimodal_id": Object {
+            "id": "1701132340-bois-colombes-rennes",
+            "source": "CARPOOLING",
+          },
+          "permanent_id": "1701132340-bois-colombes-rennes",
+          "price": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "price_with_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "27,00 €",
+            "symbol": "€",
+            "value": 27,
+          },
+          "price_without_commission": Object {
+            "currency": "EUR",
+            "price_color": "BLACK",
+            "string_value": "22 €",
+            "symbol": "€",
+            "value": 22,
+          },
+          "seats": 3,
+          "seats_left": 3,
+          "user": Object {
+            "age": 50,
+            "bbpro": false,
+            "bbpro_segment": "not_pro",
+            "dialog": "_UE_MAYBE",
+            "display_name": "Olivier",
+            "encrypted_id": "gn-tpfFez_Mdvnnfa1vxgg",
+            "gender": "_UE_M",
+            "grade": 1,
+            "has_picture": true,
+            "id_checked": "VALID",
+            "links": Object {
+              "_front": "https://www.blablacar.fr/user/show/73ff8c00-4496-11e7-a000-003970b5dcfa",
+              "_self": "https://api.blablacar.fr/api/v2/users/gn-tpfFez_Mdvnnfa1vxgg",
+            },
+            "music": "_UE_YES",
+            "pets": "_UE_MAYBE",
+            "phone_hidden": false,
+            "picture": "https://d2kwny77wxvuie.cloudfront.net/user/Jcip0ZFYRuqvcXgXWaKPmw/thumbnail_144x144.jpeg",
+            "rating": 5,
+            "rating_count": 1,
+            "smoking": "_UE_MAYBE",
+            "uuid": "73ff8c00-4496-11e7-a000-003970b5dcfa",
+          },
+          "vehicle_pictures": Array [],
+          "viaggio_rosa": false,
+        }
+      }
+    />
+  </div>
+  <div
+    className="pagination"
+  >
+    <Pagination
+      className=""
+      current={2}
+      defaultCurrent={1}
+      defaultPageSize={10}
+      hideOnSinglePage={false}
+      itemRender={[Function]}
+      locale={
+        Object {
+          "items_per_page": "/ page",
+          "jump_to": "Goto",
+          "jump_to_confirm": "confirm",
+          "next_3": "Next 3 Pages",
+          "next_5": "Next 5 Pages",
+          "next_page": "Next Page",
+          "page": "",
+          "prev_3": "Previous 3 Pages",
+          "prev_5": "Previous 5 Pages",
+          "prev_page": "Previous Page",
+        }
+      }
+      onChange={[Function]}
+      onShowSizeChange={[Function]}
+      prefixCls="rc-pagination"
+      selectComponentClass={null}
+      selectPrefixCls="rc-select"
+      showLessItems={false}
+      showPrevNextJumpers={true}
+      showQuickJumper={false}
+      showSizeChanger={false}
+      showTitle={true}
+      style={Object {}}
+      total={12}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+@import '../../assets/scss/all';
+
+.trip {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px 0 rgba(#000000, 0.2);
+
+    img {
+        width: 144px;
+        height: 144px;
+        border: 5px solid $colorHighlight;
+        border-radius: 50%;
+    }
+
+    .path {
+        width: 90%;
+        margin: 10px 5% 0 5%;
+        padding: 10px 0 15px 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        span {
+            width: 50%;
+            font-size: 10px;
+            position: absolute;
+            bottom: 0;
+            text-align: left;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            &:first-child {
+                left: 0;
+            }
+
+            &:nth-child(2) {
+                right: 0;
+                text-align: right;
+            }
+        }
+
+        svg {
+            font-size: 2em;
+
+            &.fa-building, &.fa-city {
+                color: $colorMain;
+            }
+
+            &.fa-long-arrow-alt-right {
+                color: #999999;
+            }
+        }
+    }
+}

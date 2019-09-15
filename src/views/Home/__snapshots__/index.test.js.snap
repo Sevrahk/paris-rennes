@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stars component preserve UI 1`] = `
+<Fragment>
+  <header>
+    <h1>
+      De Paris à Rennes
+    </h1>
+  </header>
+  <Catalog
+    apiToken={null}
+  />
+</Fragment>
+`;

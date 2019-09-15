@@ -1,0 +1,67 @@
+@import '../../assets/scss/all';
+
+.catalog {
+    .row {
+        position: relative;
+
+        &.empty {
+            height: 500px;
+        }
+    }
+
+    .loading {
+        width: 100%;
+        height: 100%;
+        background: rgba(#ffffff, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        color: $colorMain;
+
+        svg {
+            font-size: 3em;
+        }
+    }
+
+    .pagination {
+        padding: 20px 0;
+        justify-content: center;
+
+        .rc-pagination {
+            margin: 0;
+
+            .rc-pagination-prev, .rc-pagination-next {
+                background: $colorLink;
+            }
+
+            .rc-pagination-item {
+                &:hover {
+                    border-color: $colorMain;
+
+                    a {
+                        color: $colorMain;
+                    }
+                }
+
+                &.rc-pagination-item-active {
+                    border-color: $colorMain;
+                    background: $colorMain;
+
+                    a {
+                        color: $colorLink;
+                    }
+                }
+            }
+
+            .rc-pagination-jump-next, .rc-pagination-jump-prev {
+                &:hover::after {
+                    color: $colorMain;
+                }
+            }
+        }
+    }
+}
